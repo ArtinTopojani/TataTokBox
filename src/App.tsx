@@ -97,7 +97,7 @@ export default function App() {
     <div className="page">
       <header className="brand">
         <h1>
-          <img src="/logo.png" alt={SITE_NAME} width="148" height="88" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt={SITE_NAME} width="148" height="88" />
         </h1>
         <p>TikTok-style text boxes with iOS emoji. Download as a transparent PNG and drop it on any video.</p>
       </header>
@@ -164,7 +164,6 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p className="note">The background picture is only a preview. It isn't included in the download.</p>
         <a className="github" href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
           <GitHubIcon />
           {GITHUB_URL.replace(/^https?:\/\//, '')}

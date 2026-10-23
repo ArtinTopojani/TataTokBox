@@ -70,11 +70,6 @@ button {
   justify-content: center;
   gap: 8px 16px;
 }
-.note {
-  margin: 0;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.45);
-}
 .github {
   display: inline-flex;
   align-items: center;
@@ -133,9 +128,6 @@ button {
     aspect-ratio: auto;
     border-radius: 0;
     box-shadow: none;
-  }
-  .note {
-    display: none;
   }
 }
 
