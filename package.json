@@ -1,0 +1,28 @@
+{
+  "name": "tatatokbox",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "build:emoji": "node scripts/build-emoji-data.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/tiktok-sans": "5.3.0",
+    "emoji-regex": "11.0.0",
+    "modern-screenshot": "4.7.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "emoji-datasource": "16.0.0",
+    "typescript": "5.9.3",
+    "vite": "6.4.5"
+  }
+}
